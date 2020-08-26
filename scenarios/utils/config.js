@@ -1,0 +1,6 @@
+export const CONFIG = {
+  KBN_URL: __ENV.KBN_URL ? __ENV.KBN_URL : "http://localhost:5601",
+  ENROLLMENT_TOKEN: __ENV.ENROLLMENT_TOKEN,
+  VUS: __ENV.VUS,
+  ITERATIONS: __ENV.ITERATIONS,
+};
