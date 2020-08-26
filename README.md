@@ -11,7 +11,7 @@ You need `k6` to run these load tests
 Than after just run the scenario you want and provided the required config variables
 
 ```shell
-ENROLLMENT_TOKEN=cGJWdEozUUJmN3Bsbmh6VDRHZ3M6YkJUNzFNTElTc3FieTEzR3hLLUZPQQ== k6 run
+ENROLLMENT_TOKEN=cGJWdEozUUJmN3Bsbmh6VDRHZ3M6YkJUNzFNTElTc3FieTEzR3hLLUZPQQ== k6 run scenarios/agent-ack.js
 ```
 
 ## Scenarios
